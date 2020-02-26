@@ -1,0 +1,6 @@
+echo Test 01: 
+./Player < PlayerTest/PlayerInput-1.txt | diff - PlayerTest/PlayerOutput-1.txt
+echo Test 02: 
+./Player < PlayerTest/PlayerInput-2.txt | diff - PlayerTest/PlayerOutput-2.txt
+echo Test 03: 
+./Player < PlayerTest/PlayerInput-3.txt | diff - PlayerTest/PlayerOutput-3.txt

@@ -1,0 +1,6 @@
+echo Test 01: 
+./CBA < CBATest/Input1.txt | diff - CBATest/Output1.txt
+echo Test 02: 
+./CBA < CBATest/Input2.txt | diff - CBATest/Output2.txt
+echo Test 03: 
+./CBA < CBATest/Input3.txt | diff - CBATest/Output3.txt

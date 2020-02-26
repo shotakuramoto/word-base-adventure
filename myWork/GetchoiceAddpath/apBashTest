@@ -1,0 +1,6 @@
+echo Test 01:
+./LocAddPath < LocationTest/Input4.txt | diff - LocationTest/Output4.txt
+echo Test 02:
+./LocAddPath < LocationTest/Input5.txt | diff - LocationTest/Output5.txt
+echo Test 03:
+./LocAddPath < LocationTest/Input6.txt | diff - LocationTest/Output6.txt

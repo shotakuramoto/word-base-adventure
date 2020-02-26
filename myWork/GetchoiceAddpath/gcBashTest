@@ -1,0 +1,6 @@
+echo Test 01: 
+./LocGetChoice < LocationTest/Input1.txt | diff - LocationTest/Output1.txt
+echo Test 02: 
+./LocGetChoice < LocationTest/Input2.txt | diff - LocationTest/Output2.txt
+echo Test 03: 
+./LocGetChoice < LocationTest/Input3.txt | diff - LocationTest/Output3.txt

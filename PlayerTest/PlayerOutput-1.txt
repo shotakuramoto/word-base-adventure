@@ -1,0 +1,3 @@
+took item axe
+took item mushroom
+took item chainsaw
